@@ -7,3 +7,46 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 }
+
+h1, h2, h3, h4, p {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+#wrapper {
+	margin: 2em auto;
+	max-width: 1200px;
+}
+
+#main {
+	background: pink;
+	margin: 2em;
+	padding: 2em;
+}
+
+#sidebar {
+	background: blue;
+
+}
+
+#content {
+	background: purple;
+}
+
+@media (min-width: 699px) {
+
+	#wrapper {
+	margin: 0em auto;
+}
+	#main {
+		margin: 1em;
+		padding: 0em;
+	}
+
+
+
+	}
