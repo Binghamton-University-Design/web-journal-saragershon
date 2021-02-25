@@ -29,12 +29,29 @@ h1 {
 }
 
 #sidebar {
-	background: blue;
+	background: hotpink;
 
 }
 
+#logo {
+	padding: 3em 0;
+}
+
+#logo h1{
+	margin: 0;
+}
+
+#logo img, .item img {
+	width: 100%;
+	height: auto;
+}
+
+.item img {
+	margin-bottom: 2em;
+	margin-right: 4em;
+}
 #content {
-	background: purple;
+	background: pink;
 }
 
 @media (min-width: 699px) {
