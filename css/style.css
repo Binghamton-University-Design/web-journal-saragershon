@@ -23,21 +23,28 @@ h1 {
 }
 
 #main {
-	background: pink;
+	background: grey;
 	margin: 2em;
 	padding: 2em;
 }
 
 #sidebar {
-	background: hotpink;
+	background: grey;
 
+}
+
+#sidebar h1{
+	margin-top: 1em;
+	margin-left: 1.5em;
 }
 
 #logo {
 	padding: 3em 0;
+	margin-left: 2em;
 }
 
 #logo h1{
+	margin-top: 1em;
 	margin: 0;
 }
 
@@ -50,20 +57,67 @@ h1 {
 	margin-bottom: 2em;
 	margin-right: 4em;
 }
-#content {
-	background: pink;
+
+.item h1{
+	text-align: center;
+	margin-top: 1em;
 }
 
-@media (min-width: 699px) {
+#content {
+	background: #595A5A;
+}
+
+
+#nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0
+}
+
+#nav li {
+	margin-bottom: 1em;
+}
+
+
+.quote-holder {
+	height: 40vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0 3em;
+}
+
+.quote {
+	font-size: 2em;
+}
+
+
+@media (max-width: 699px) {
 
 	#wrapper {
-	margin: 0em auto;
-}
+		margin: 0em auto;
+	}
+
 	#main {
 		margin: 1em;
 		padding: 0em;
 	}
 
-
-
+	#logo {
+		text-align: center;
+		padding: 2em 0;
 	}
+
+	#nav ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#nav li {
+		display: inline;
+		padding: .25em;
+		background: purple;
+		margin-bottom: 0;
+	}
+
+}
