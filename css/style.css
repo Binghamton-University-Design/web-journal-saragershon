@@ -4,8 +4,15 @@ body {
 	margin: 20px;
 	background: black;
 	color: white;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'DotGothic16', sans-serif;
 	font-weight: 200;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+	background-image: 100%;
 }
 
 h1, h2, h3, h4, p {
@@ -14,7 +21,7 @@ h1, h2, h3, h4, p {
 }
 
 h1 {
-	font-weight: 700;
+	font-weight: 400;
 }
 
 #wrapper {
@@ -55,12 +62,21 @@ h1 {
 
 .item img {
 	margin-bottom: 2em;
-	margin-right: 4em;
+	margin-right: 3em;
 }
 
 .item h1{
 	text-align: center;
 	margin-top: 1em;
+}
+
+.item p{
+font-weight: 200;
+font-size: 20pt;
+font-family: 'DotGothic16', sans-serif;
+margin-left: 1em;
+margin-right: 1em;
+margin-bottom: 3em;
 }
 
 #content {
@@ -88,7 +104,7 @@ h1 {
 }
 
 .quote {
-	font-size: 2em;
+	font-size: 20pt;
 }
 
 
