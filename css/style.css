@@ -106,6 +106,9 @@ padding-top: 0em;
 	margin-bottom: 1em;
 }
 
+#nav li a{
+	color: white;
+}
 
 .quote-holder {
 	height: 40vh;
