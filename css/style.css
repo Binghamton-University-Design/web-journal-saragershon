@@ -108,6 +108,9 @@ padding-top: 0em;
 
 #nav li a{
 	color: black;
+	text-align: center;
+	margin-left: 4em;
+	font-size: 25pt;
 }
 
 .quote-holder {
