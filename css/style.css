@@ -48,7 +48,7 @@ h1 {
 	padding-bottom: 2em;
 	padding-right: 2em;
 	padding-left: 2em;
-	color: black;
+	color: hotpink;
 
 }
 
@@ -92,7 +92,7 @@ padding-top: 0em;
 }
 
 #content {
-	background: black;
+	background: hotpink;
 }
 
 
@@ -107,7 +107,7 @@ padding-top: 0em;
 }
 
 #nav li a{
-	color: black;
+	color: hotpink;
 	text-align: center;
 	margin-left: 4em;
 	font-size: 25pt;
@@ -119,12 +119,118 @@ padding-top: 0em;
 	align-items: center;
 	justify-content: center;
 	padding: 0 3em;
+	margin-bottom: 2em;
+	background-color: hotpink;
 }
 
 .quote {
-	font-size: 20pt;
+	text-align: center;
+	font-size: 35pt;
 }
 
+#projects {
+	text-align: center;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+#projects h2 {
+	padding-bottom: 2em;
+	color: white;
+	font-size: 25pt;
+}
+
+#exquiste {
+	position: relative;
+	margin-bottom: 2em;
+}
+
+#exquisite .grid{
+	grid-gap: 0;
+}
+
+#exquisite .grid img{
+	margin-bottom: 0;
+}
+
+#exquisite .grid > div:nth-child(even) {
+	background: white;
+}
+
+#exquisite .content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%
+	height: 100%;
+	display: grid;
+	align-items: center;
+	justify-content: center;
+}
+
+#exquisite .content {
+	padding: 0rem;
+}
+
+#projects {
+	margin-bottom: 2em;
+}
+
+#projects .grid-item{
+position: relative;
+color: white;
+}
+
+#projects .grid-item img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+#projects .grid-item .overlay {
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#projects .grid-item:hover .overlay {
+	opacity: 1
+}
+
+#projects .grid-item .overlay .project-title h3{
+	margin-bottom: 0;
+}
+
+#layering-fun {
+	width: 500px;
+	height: 500px;
+	background: purple;
+	position: relative;
+}
+
+.top {
+	z-index: 4;
+	position: absolute;
+	left: 20px;
+	bottom: 40%;
+}
+
+.mid {
+	z-index: 3;
+	background: yellow;
+	position: absolute;
+	left: 20px;
+	bottom: 40%:;
+}
 
 @media (max-width: 699px) {
 
