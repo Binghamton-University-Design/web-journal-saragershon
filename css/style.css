@@ -67,7 +67,6 @@ h1 {
 }
 
 .item img {
-	margin-bottom: 4em;
 	margin-right: 2em;
 	margin-left: 10em;
 	margin-top: 4em;
@@ -146,19 +145,20 @@ padding-top: 0em;
 	margin-bottom: 2em;
 }
 
-#exquisite .grid{
-	grid-gap: 0;
-}
 
 #exquisite .grid img{
+	width: 100%;
+	height: auto;
 	margin-bottom: 0;
+	display: grid;
 }
 
-#exquisite .grid > div:nth-child(even) {
-	background: white;
+#projects .grid-item .overlay .project-title h3 {
+	margin-bottom: 0;
+	text-align: center;
 }
 
-#exquisite .content {
+.content {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -169,8 +169,7 @@ padding-top: 0em;
 	align-items: center;
 	justify-content: center;
 }
-
-#exquisite .content {
+.content {
 	padding: 0rem;
 }
 
