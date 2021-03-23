@@ -24,6 +24,10 @@ h1 {
 	font-size: 40pt;
 }
 
+h2 {
+	font-family: 
+}
+
 #wrapper {
 	margin: 2em auto;
 	max-width: 1200px;
@@ -40,7 +44,7 @@ h1 {
 
 }
 
-#sidebar h1{
+#sidebar h1 {
 	margin-top: .5em;
 	text-align: center; 
 	padding-top: 2em;
@@ -50,6 +54,11 @@ h1 {
 	color: black;
 
 }
+
+#sidebar h1 a {
+	color: black;
+}
+
 
 #logo {
 	padding: 1em 0;
@@ -151,6 +160,20 @@ padding-top: 0em;
 	height: auto;
 	margin-bottom: 0;
 	display: grid;
+}
+
+#exquisite .grid {
+  grid-gap: 0;
+}
+
+#text p  {
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+	font-size: 20pt;
+	padding-bottom: 2em;
+	color: black;
+
 }
 
 #projects .grid-item .overlay .project-title h3 {
